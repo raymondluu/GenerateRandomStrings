@@ -1,0 +1,10 @@
+#!/bin/bash
+# Program: Generate Random Text Strings Script
+# Purpose: Exercise 1
+# File: generateRandomScript
+# Programmer: Raymond Luu
+# Date: 10/9/2013
+# Description: Script that displays the file and then sorts it. Follow by putting it into a new file.
+
+cat myRandFile
+cat myRandFile | sort > myRandFileSorted

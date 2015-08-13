@@ -1,0 +1,40 @@
+unsorted
+---------
+wlrbbmqbhcdarzowkkyh
+ddqsc
+xrjmowfrxsjybldbefsarcbynecdyggx
+pklorellnmpapq
+wkhopkmcoqhnwnkuewhsqmgbbuqc
+jjivswmdkqtbxixmvtrr
+ljptnsnfwzqfjmaf
+drrwsofsb
+nuvqhffbs
+qxwpqcacehchzvfrkmlno
+
+sorted
+-------
+aafjeet
+aaidqhzsfacoucwekerfmfzrhag
+aaiuwlcuddpqebvjlwjmxiiuhnztdgz
+aakcrphg
+aakczdreediyhonehcgosxqsfqkpf
+aakfglhyzuabeifysipxnvgmhz
+aaoxnamhlcymxj
+aapahjwtesplweqfmnmymtqrele
+aapynkmbuqadoloek
+aasdsfdfngavyyabuo
+
+
+1. cat myRandFile
+
+This gives me the output of all the 10k lines of randomized letters per line. Random number of letters in a random order.
+
+2. cat myRandFile | sort
+
+This gives me the output of all the 10k lines of randomized letters but in alphabetical order from a to z. The output only shows the z since the console is too small to display all 10k lines even when scrolling up you only see u through z and not anything above that.
+
+3. Script provided
+
+4. cat generateRandomScript
+
+This displays the contents of the generateRandomScript which were the lines I used to replicate 1 and 2 above and then output that into a new file called myRandFileSorted.
